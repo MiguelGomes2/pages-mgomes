@@ -1,0 +1,54 @@
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node.js & npm
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Private/Sensitive files
+.private/
+secrets.md
+*.key
+*.pem
+credentials.txt
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+.temp/
+
+# Generated files
+.cache/
+dist/
+build/
+
+# Obsidian vault (if using)
+.obsidian/
+
+# Uncomment if generating a static site
+# site/
+# docs/_site/
+
+# IDE-specific local settings
+.vscode/settings.json
+.vscode/launch.json
