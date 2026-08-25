@@ -4,7 +4,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Automatic-KS: Automatic-KS.md
+  - Automatic-KS: automaticks.md
   - Technical Learnings: technical-learnings/index.md
   - Reference: reference/index.md
   - Meeting Notes: meeting-notes/index.md
