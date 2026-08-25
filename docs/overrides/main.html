@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    :root {
+      --md-primary-fg-color: #0d5d3d;
+      --md-primary-bg-color: #0d5d3d;
+    }
+    body, html { background-color: #0d5d3d !important; }
+    .md-content { color: #ffffff !important; }
+  </style>
+{% endblock %}
