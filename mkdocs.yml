@@ -56,7 +56,7 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Home: index.md
+  - Home: Automatic-KS.md
   - Technical Learnings:
     - Overview: technical-learnings/index.md
     - Programming: technical-learnings/programming/index.md
