@@ -52,6 +52,7 @@ html, body {
   display: flex !important;
   align-items: center !important;
   width: 100% !important;
+  margin: 0 !important;
 }
 
 .md-header__title {
@@ -71,6 +72,38 @@ html, body {
 
 .md-header__title a:hover {
   color: #ffaa00 !important;
+}
+
+/* Style the header logo button */
+.md-header__logo {
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  font-size: 0.9rem !important;
+  color: #ff8c00 !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+}
+
+.md-header__logo a {
+  color: #ff8c00 !important;
+  text-decoration: none !important;
+  border: none !important;
+  font-weight: bold !important;
+}
+
+.md-header__logo a:hover {
+  color: #ffaa00 !important;
+}
+
+.md-header__link {
+  color: #ff8c00 !important;
+  text-decoration: none !important;
+  border: none !important;
+  font-weight: bold !important;
 }
 
 /* Hide search and other header elements */
