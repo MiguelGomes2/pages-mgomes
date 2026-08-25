@@ -95,3 +95,17 @@ th {
 td {
   color: #ffffff !important;
 }
+
+/* Hide nav section titles/headers (the green sections) */
+.md-nav__title {
+  display: none !important;
+}
+
+/* Header as link to homepage */
+.md-header {
+  cursor: pointer !important;
+}
+
+.md-header__inner {
+  cursor: pointer !important;
+}

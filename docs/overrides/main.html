@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const header = document.querySelector('.md-header');
+      if (header) {
+        header.style.cursor = 'pointer';
+        header.onclick = function() {
+          window.location.href = '{{ config.site_url }}';
+        };
+      }
+    });
+  </script>
+{% endblock %}
