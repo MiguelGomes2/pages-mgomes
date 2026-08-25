@@ -33,7 +33,7 @@ markdown_extensions:
       permalink: true
 
 extra_css:
-  - custom.css
+  - stylesheets/custom.css
 
 nav:
   - Home: index.md
