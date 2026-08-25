@@ -3,7 +3,7 @@ theme:
   name: material
   palette:
     - scheme: slate
-      primary: custom
+      primary: teal
       accent: cyan
   features:
     - navigation.instant

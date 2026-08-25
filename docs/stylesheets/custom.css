@@ -1,22 +1,32 @@
 /* Phthalo Green Background */
 :root {
-  --md-primary-fg-color: #0d5d3d;
-  --md-primary-bg-color: #0d5d3d;
-  --md-accent-fg-color: #00d4aa;
+  --md-primary-fg-color: #0d5d3d !important;
+  --md-primary-bg-color: #0d5d3d !important;
+  --md-accent-fg-color: #00d4aa !important;
+  --md-default-bg-color: #0d5d3d !important;
+  --md-default-fg-color: #f0f0f0 !important;
+}
+
+html {
+  background-color: #0d5d3d !important;
 }
 
 /* Main Background */
 body {
-  background-color: #0d5d3d;
-  color: #f0f0f0;
+  background-color: #0d5d3d !important;
+  color: #f0f0f0 !important;
 }
 
 .md-page {
-  background-color: #0d5d3d;
+  background-color: #0d5d3d !important;
 }
 
 .md-main {
-  background-color: #0d5d3d;
+  background-color: #0d5d3d !important;
+}
+
+.md-container {
+  background-color: #0d5d3d !important;
 }
 
 /* Content Area */
