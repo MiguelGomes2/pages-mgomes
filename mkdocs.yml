@@ -1,10 +1,11 @@
 site_name: Personal Knowledge Repository
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     - scheme: slate
-      primary: teal
-      accent: cyan
+      primary: green
+      accent: orange
   features:
     - navigation.instant
     - navigation.tracking
