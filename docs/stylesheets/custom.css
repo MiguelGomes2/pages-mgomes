@@ -1,4 +1,4 @@
-/* Phthalo Green Theme - #0d5d3d */
+/* Phthalo Green Theme - #0d5d3d with inverted colors */
 
 /* Root and base colors */
 :root {
@@ -35,10 +35,43 @@ html, body {
   background-color: #0d5d3d !important;
 }
 
+/* Hide Table of Contents (right sidebar) */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Remove right margin from content since TOC is hidden */
+.md-content {
+  margin-right: 0 !important;
+}
+
+/* Hide top search bar and header elements */
+.md-header {
+  display: none !important;
+}
+
+/* Create new simple header with just title */
+.md-skip {
+  display: none !important;
+}
+
+/* Add simple title bar at the top */
+body::before {
+  content: "Personal Knowledge Repository";
+  display: block;
+  background-color: #0a2a1a;
+  color: #0d5d3d;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #0d5d3d;
+  text-align: center;
+}
+
 /* Content area styling */
 .md-content {
   background-color: #0d5d3d !important;
-  color: #e0e0e0 !important;
+  color: #0d5d3d !important;
 }
 
 .md-content__inner {
@@ -55,26 +88,34 @@ html, body {
 }
 
 .md-nav__link {
-  color: #e0e0e0 !important;
+  color: #0d5d3d !important;
+  font-weight: 500;
+  padding: 0.5rem 0 !important;
+  border-left: 3px solid transparent !important;
+  padding-left: 1rem !important;
 }
 
 .md-nav__link:hover {
-  color: #00e6b8 !important;
+  color: #0d5d3d !important;
+  border-left-color: #0d5d3d !important;
+  background-color: rgba(13, 93, 61, 0.1) !important;
 }
 
 .md-nav__link--active {
-  color: #00ffcc !important;
+  color: #0d5d3d !important;
+  border-left-color: #0d5d3d !important;
+  font-weight: 700 !important;
 }
 
-/* Typography - Headings */
+/* Typography - Headings (inverted) */
 h1, h2, h3, h4, h5, h6 {
-  color: #00d4aa !important;
+  color: #f0f0f0 !important;
   font-weight: 600 !important;
 }
 
 h1 {
   font-size: 2rem !important;
-  border-bottom: 2px solid #00d4aa !important;
+  border-bottom: 2px solid #f0f0f0 !important;
   padding-bottom: 0.5rem !important;
 }
 
@@ -86,61 +127,62 @@ h3 {
   font-size: 1.5rem !important;
 }
 
-/* Regular text */
+/* Regular text (inverted) */
 p, li, span {
-  color: #e0e0e0 !important;
+  color: #f0f0f0 !important;
   line-height: 1.6 !important;
 }
 
-/* Hyperlinks */
+/* Hyperlinks (inverted) */
 a {
-  color: #00e6b8 !important;
+  color: #0d5d3d !important;
   text-decoration: none !important;
-  border-bottom: 1px solid #00e6b8 !important;
+  border-bottom: 1px solid #0d5d3d !important;
+  font-weight: 500 !important;
 }
 
 a:hover {
-  color: #00ffcc !important;
-  border-bottom: 2px solid #00ffcc !important;
+  color: #0a4a3a !important;
+  border-bottom: 2px solid #0a4a3a !important;
 }
 
 /* Code blocks */
 code {
   background-color: #0a2a1a !important;
-  color: #00e6b8 !important;
+  color: #0d5d3d !important;
   padding: 0.2rem 0.4rem !important;
   border-radius: 4px !important;
 }
 
 pre {
   background-color: #0a2a1a !important;
-  color: #e0e0e0 !important;
-  border-left: 3px solid #00d4aa !important;
+  color: #f0f0f0 !important;
+  border-left: 3px solid #0d5d3d !important;
   padding: 1rem !important;
   border-radius: 8px !important;
 }
 
 .highlight {
   background-color: #0a2a1a !important;
-  border-left: 3px solid #00d4aa !important;
+  border-left: 3px solid #0d5d3d !important;
 }
 
 /* Details/Collapsible */
 details {
   background-color: #0a2a1a !important;
-  border: 1px solid #00d4aa !important;
+  border: 1px solid #0d5d3d !important;
   border-radius: 6px !important;
   padding: 1rem !important;
 }
 
 details summary {
-  color: #00e6b8 !important;
+  color: #f0f0f0 !important;
   font-weight: 600 !important;
   cursor: pointer !important;
 }
 
 details summary:hover {
-  color: #00ffcc !important;
+  color: #ffffff !important;
 }
 
 /* Tables */
@@ -150,32 +192,21 @@ table {
 
 th {
   background-color: #0d5d3d !important;
-  color: #00e6b8 !important;
-  border-bottom: 2px solid #00d4aa !important;
+  color: #f0f0f0 !important;
+  border-bottom: 2px solid #0d5d3d !important;
 }
 
 td {
   border-bottom: 1px solid #1a3a2a !important;
-  color: #e0e0e0 !important;
+  color: #f0f0f0 !important;
 }
 
 /* Footer */
 .md-footer {
   background-color: #0a2a1a !important;
-  border-top: 1px solid #00d4aa !important;
+  border-top: 1px solid #0d5d3d !important;
 }
 
 .md-footer__link {
-  color: #00d4aa !important;
-}
-
-/* Search */
-.md-search__input {
-  background-color: #0a2a1a !important;
-  color: #e0e0e0 !important;
-  border: 1px solid #00d4aa !important;
-}
-
-.md-search__input::placeholder {
-  color: #808080 !important;
+  color: #0d5d3d !important;
 }
