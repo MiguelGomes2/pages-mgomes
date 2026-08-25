@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
-{% block styles %}
-  {{ super() }}
+{% block extrahead %}
   <style>
     :root {
       --md-primary-fg-color: #0d5d3d;
@@ -91,7 +90,6 @@
       display: none !important;
     }
 
-    /* Dark green header background */
     .md-header {
       background-color: #052d1a !important;
       cursor: pointer !important;
