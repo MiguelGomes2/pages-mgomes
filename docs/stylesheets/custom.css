@@ -1,27 +1,29 @@
-/* Phthalo Green Background */
+/* Phthalo Green Theme - #0d5d3d */
+
+/* Root and base colors */
 :root {
-  --md-primary-fg-color: #0d5d3d !important;
-  --md-primary-bg-color: #0d5d3d !important;
-  --md-accent-fg-color: #00d4aa !important;
-  --md-default-bg-color: #0d5d3d !important;
-  --md-default-fg-color: #f0f0f0 !important;
+  --md-primary-fg-color: #0d5d3d;
+  --md-primary-bg-color: #0d5d3d;
+  --md-accent-fg-color: #00d4aa;
 }
 
-html {
+/* Dark mode background */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0d5d3d;
+  --md-primary-bg-color: #0d5d3d;
+  --md-accent-fg-color: #00d4aa;
+}
+
+/* Global Background */
+html, body {
   background-color: #0d5d3d !important;
 }
 
-/* Main Background */
-body {
+.md-html {
   background-color: #0d5d3d !important;
-  color: #f0f0f0 !important;
 }
 
 .md-page {
-  background-color: #0d5d3d !important;
-}
-
-.md-main {
   background-color: #0d5d3d !important;
 }
 
@@ -29,178 +31,151 @@ body {
   background-color: #0d5d3d !important;
 }
 
-/* Content Area */
+.md-main__inner {
+  background-color: #0d5d3d !important;
+}
+
+/* Content area styling */
 .md-content {
-  background-color: #1a3a2a;
-  color: #f0f0f0;
-  border-radius: 8px;
-  padding: 2rem;
+  background-color: #0d5d3d !important;
+  color: #e0e0e0 !important;
 }
 
-/* Typography Styling */
-
-/* Regular Text */
-p {
-  color: #e0e0e0;
-  font-size: 1rem;
-  line-height: 1.6;
-  font-family: 'Segoe UI', sans-serif;
+.md-content__inner {
+  background-color: #0d5d3d !important;
 }
 
-/* Titles and Headings */
+/* Sidebar and navigation */
+.md-sidebar {
+  background-color: #0d5d3d !important;
+}
+
+.md-nav {
+  background-color: #0d5d3d !important;
+}
+
+.md-nav__link {
+  color: #e0e0e0 !important;
+}
+
+.md-nav__link:hover {
+  color: #00e6b8 !important;
+}
+
+.md-nav__link--active {
+  color: #00ffcc !important;
+}
+
+/* Typography - Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #00d4aa;
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  font-family: 'Segoe UI', sans-serif;
+  color: #00d4aa !important;
+  font-weight: 600 !important;
 }
 
 h1 {
-  font-size: 2rem;
-  border-bottom: 2px solid #00d4aa;
-  padding-bottom: 0.5rem;
+  font-size: 2rem !important;
+  border-bottom: 2px solid #00d4aa !important;
+  padding-bottom: 0.5rem !important;
 }
 
 h2 {
-  font-size: 1.75rem;
-  color: #00e6b8;
+  font-size: 1.75rem !important;
 }
 
 h3 {
-  font-size: 1.5rem;
-  color: #00d4aa;
+  font-size: 1.5rem !important;
+}
+
+/* Regular text */
+p, li, span {
+  color: #e0e0e0 !important;
+  line-height: 1.6 !important;
 }
 
 /* Hyperlinks */
 a {
-  color: #00e6b8;
-  text-decoration: none;
-  font-weight: 500;
-  border-bottom: 1px solid #00e6b8;
-  transition: all 0.2s ease;
+  color: #00e6b8 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #00e6b8 !important;
 }
 
 a:hover {
-  color: #00ffcc;
-  border-bottom: 2px solid #00ffcc;
-  text-decoration: none;
+  color: #00ffcc !important;
+  border-bottom: 2px solid #00ffcc !important;
 }
 
-a:visited {
-  color: #00c9a3;
-}
-
-/* Navigation */
-.md-nav__link {
-  color: #e0e0e0;
-}
-
-.md-nav__link:hover {
-  color: #00e6b8;
-}
-
-.md-nav__link--active {
-  color: #00ffcc;
-}
-
-/* Sidebar */
-.md-sidebar {
-  background-color: #0d5d3d;
-}
-
-.md-nav {
-  background-color: #0d5d3d;
-}
-
-/* Code Blocks */
-.highlight {
-  background-color: #0a2a1a;
-  border-left: 3px solid #00d4aa;
-}
-
+/* Code blocks */
 code {
-  background-color: #0a2a1a;
-  color: #00e6b8;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-family: 'Fira Code', monospace;
+  background-color: #0a2a1a !important;
+  color: #00e6b8 !important;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 4px !important;
 }
 
 pre {
-  background-color: #0a2a1a;
-  color: #e0e0e0;
-  border-radius: 8px;
-  border-left: 3px solid #00d4aa;
+  background-color: #0a2a1a !important;
+  color: #e0e0e0 !important;
+  border-left: 3px solid #00d4aa !important;
+  padding: 1rem !important;
+  border-radius: 8px !important;
 }
 
-/* Details/Collapsible Sections */
+.highlight {
+  background-color: #0a2a1a !important;
+  border-left: 3px solid #00d4aa !important;
+}
+
+/* Details/Collapsible */
 details {
-  background-color: #0a2a1a;
-  border: 1px solid #00d4aa;
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 1rem 0;
+  background-color: #0a2a1a !important;
+  border: 1px solid #00d4aa !important;
+  border-radius: 6px !important;
+  padding: 1rem !important;
 }
 
 details summary {
-  color: #00e6b8;
-  font-weight: 600;
-  cursor: pointer;
-  user-select: none;
+  color: #00e6b8 !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
 }
 
 details summary:hover {
-  color: #00ffcc;
+  color: #00ffcc !important;
 }
 
 /* Tables */
 table {
-  background-color: #0a2a1a;
-  border-collapse: collapse;
+  background-color: #0a2a1a !important;
 }
 
 th {
-  background-color: #0d5d3d;
-  color: #00e6b8;
-  border-bottom: 2px solid #00d4aa;
+  background-color: #0d5d3d !important;
+  color: #00e6b8 !important;
+  border-bottom: 2px solid #00d4aa !important;
 }
 
 td {
-  border-bottom: 1px solid #1a3a2a;
-  color: #e0e0e0;
-}
-
-/* Blockquotes */
-blockquote {
-  border-left: 4px solid #00d4aa;
-  background-color: #0a2a1a;
-  padding: 1rem;
-  margin: 1rem 0;
-  color: #c0c0c0;
-}
-
-/* Search Box */
-.md-search__input {
-  background-color: #0a2a1a;
-  color: #e0e0e0;
-  border: 1px solid #00d4aa;
-}
-
-.md-search__input::placeholder {
-  color: #808080;
+  border-bottom: 1px solid #1a3a2a !important;
+  color: #e0e0e0 !important;
 }
 
 /* Footer */
 .md-footer {
-  background-color: #0a2a1a;
-  border-top: 1px solid #00d4aa;
+  background-color: #0a2a1a !important;
+  border-top: 1px solid #00d4aa !important;
 }
 
 .md-footer__link {
-  color: #00d4aa;
+  color: #00d4aa !important;
 }
 
-.md-footer__link:hover {
-  color: #00ffcc;
+/* Search */
+.md-search__input {
+  background-color: #0a2a1a !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #00d4aa !important;
+}
+
+.md-search__input::placeholder {
+  color: #808080 !important;
 }
