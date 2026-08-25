@@ -41,8 +41,8 @@ html, body {
 /* Style the header - make it compact with homepage link */
 .md-header {
   background-color: #0a4a3a !important;
-  height: 3rem !important;
-  padding: 0.5rem 1rem !important;
+  height: 2rem !important;
+  padding: 0.25rem 1rem !important;
   display: flex !important;
   align-items: center !important;
   border-bottom: 2px solid #0d5d3d !important;
@@ -227,9 +227,34 @@ td {
 .md-footer {
   background-color: #0a2a1a !important;
   border-top: 1px solid #ff8c00 !important;
+  display: none !important;
 }
 
 .md-footer__link {
   color: #ff8c00 !important;
   font-weight: bold !important;
+}
+
+/* Hide "made with" footer */
+.md-footer-meta {
+  display: none !important;
+}
+
+.md-footer-copyright {
+  display: none !important;
+}
+
+/* Hide navigation section titles */
+.md-nav__title {
+  display: none !important;
+}
+
+/* Hide nav section labels/headers */
+.md-nav__label {
+  display: none !important;
+}
+
+/* Align hamburger menu button with header */
+.md-header__button {
+  align-self: center !important;
 }
