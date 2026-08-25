@@ -29,10 +29,9 @@ personal-repo/
 │   ├── 2026-09/
 │   └── decisions-log.md
 │
-├── /04-projects/                # Project tracking and progress
-│   ├── project-a/
-│   ├── project-b/
-│   └── projects-overview.md
+├── /liabilityengine/            # Liability Engine tracking and progress
+│   ├── tracking/
+│   └── index.md
 │
 └── /templates/                  # Template files (for reference)
     ├── TECHNICAL-GUIDE.md
@@ -55,7 +54,7 @@ cd personal-repo
 mkdir -p 01-technical-learnings/{programming,tools-and-frameworks,devops-and-infrastructure,debugging-notes}
 mkdir -p 02-reference-material/{apis,commands,templates,checklists}
 mkdir -p 03-meeting-notes/{2026-08,2026-09}
-mkdir -p 04-projects
+mkdir -p liabilityengine
 mkdir -p templates
 ```
 
@@ -116,20 +115,15 @@ Meeting notes, decisions, and action items organized by date.
 
 ---
 
-### 🎯 04-Projects/
-Active projects, their progress, and status. One folder per project.
+### 🎯 Liability Engine/
+Liability Engine tracking, progress, and documentation.
 
-**File structure per project:**
+**File structure:**
 ```
-project-name/
-├── README.md              # Project overview
-├── progress.md            # Current status and next steps
-├── decisions.md           # Project-specific decisions
-├── blockers.md            # Current blockers and resolutions
-└── learnings.md           # Lessons learned as you go
+liabilityengine/
+├── index.md               # Overview and documentation
+└── tracking/              # Tracking and progress files
 ```
-
-**projects-overview.md:** Summary of all active projects.
 
 **Template:** See `templates/PROJECT-LOG.md`
 
@@ -212,7 +206,7 @@ If you want a public-facing version:
 - [INDEX.md](INDEX.md) - Master navigation
 - [Templates](templates/) - Content templates
 - [Latest Meeting Notes](03-meeting-notes/2026-08/) - Recent notes
-- [Active Projects](04-projects/projects-overview.md) - Current work
+- [Liability Engine](liabilityengine/index.md) - Current work
 
 ---
 
