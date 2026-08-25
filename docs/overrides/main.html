@@ -101,15 +101,4 @@
       cursor: pointer !important;
     }
   </style>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const header = document.querySelector('.md-header');
-      if (header) {
-        header.onclick = function() {
-          window.location.href = '{{ config.site_url }}';
-        };
-      }
-    });
-  </script>
 {% endblock %}
