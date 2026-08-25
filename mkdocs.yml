@@ -51,13 +51,3 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       permalink: true
-
-nav:
-  - Home: index.md
-  - Automatic Knowledge Store: Automatic-KS.md
-  - Technical Learnings:
-    - Overview: technical-learnings/index.md
-  - Reference Material:
-    - Overview: reference/index.md
-  - Meeting Notes: meeting-notes/index.md
-  - Projects: projects/index.md
