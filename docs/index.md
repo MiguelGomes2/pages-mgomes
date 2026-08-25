@@ -9,106 +9,24 @@ A personal knowledge base for technical learnings, how-to guides, meeting notes,
 ## 📚 Repository Structure
 
 ```
-personal-repo/
-├── README.md                    # This file
-├── .gitignore                   # Git ignore patterns
-├── INDEX.md                     # Master index and quick links
+docs/
+├── index.md                     # This file
+├── about.md                     # About page
 │
 ├── /price-confidence/           # Price Confidence reference and checklists
+│   ├── index.md
 │   ├── apis/
 │   ├── commands/
 │   ├── templates/
 │   └── checklists/
 │
-├── /03-meeting-notes/           # Meeting notes and decisions
-│   ├── 2026-08/
-│   ├── 2026-09/
-│   └── decisions-log.md
-│
 ├── /liabilityengine/            # Liability Engine tracking and progress
-│   ├── tracking/
-│   └── index.md
+│   ├── index.md
+│   └── tracking/
 │
-└── /templates/                  # Template files (for reference)
-    ├── TECHNICAL-GUIDE.md
-    ├── MEETING-NOTE.md
-    ├── REFERENCE.md
-    └── PROJECT-LOG.md
+└── /meeting-notes/              # Meeting notes organized by date
+    └── YYYY-MM/
 ```
-
----
-
-## 🚀 Quick Start
-
-### 1. Initialize the Repository Locally
-```bash
-# Clone or create the repo
-git clone <your-repo-url> personal-repo
-cd personal-repo
-
-# Create the directory structure
-mkdir -p price-confidence/{apis,commands,templates,checklists}
-mkdir -p 03-meeting-notes/{2026-08,2026-09}
-mkdir -p liabilityengine
-mkdir -p templates
-```
-
-### 2. Add Content
-Start by copying the templates from `/templates` into the relevant directories and filling them in.
-
-### 3. Keep INDEX.md Updated
-Whenever you add new notes, update `INDEX.md` with a link for quick navigation.
-
-### 4. Commit and Push
-```bash
-git add .
-git commit -m "Add new notes on [topic]"
-git push origin main
-```
-
----
-
-## 📖 How to Use Each Section
-
-### 🔍 Price Confidence/
-Price Confidence data, queries, documentation, and checklists.
-
-**Examples:**
-- `apis/api-endpoints.md` - API reference
-- `commands/useful-queries.md` - Useful queries and commands
-- `templates/analysis-template.md` - Analysis template
-- `checklists/review-checklist.md` - Review checklist
-
-**Template:** See `templates/REFERENCE.md`
-
----
-
-### 📝 03-Meeting-Notes/
-Meeting notes, decisions, and action items organized by date.
-
-**File naming:** `YYYY-MM-DD-topic-slug.md`
-
-**Examples:**
-- `2026-08/2026-08-20-price-confidence-review.md`
-- `2026-08/2026-08-15-sprint-planning.md`
-
-**decisions-log.md:** Running log of decisions made. Update whenever an important decision is documented.
-
-**Template:** See `templates/MEETING-NOTE.md`
-
----
-
-### 🎯 Liability Engine/
-Liability Engine tracking, progress, and documentation.
-
-**File structure:**
-```
-liabilityengine/
-├── index.md               # Overview and documentation
-└── tracking/              # Tracking and progress files
-```
-
-**Template:** See `templates/PROJECT-LOG.md`
 
 ---
 
@@ -186,11 +104,9 @@ If you want a public-facing version:
 
 ## 📞 Quick Links
 
-- [INDEX.md](INDEX.md) - Master navigation
-- [Templates](templates/) - Content templates
-- [Latest Meeting Notes](03-meeting-notes/2026-08/) - Recent notes
 - [Price Confidence](price-confidence/index.md) - Reference material
 - [Liability Engine](liabilityengine/index.md) - Current work
+- [Meeting Notes](meeting-notes/index.md) - Recent notes
 
 ---
 
