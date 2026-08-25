@@ -90,5 +90,26 @@
     .md-nav__title {
       display: none !important;
     }
+
+    /* Dark green header background */
+    .md-header {
+      background-color: #052d1a !important;
+      cursor: pointer !important;
+    }
+
+    .md-header__inner {
+      cursor: pointer !important;
+    }
   </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const header = document.querySelector('.md-header');
+      if (header) {
+        header.onclick = function() {
+          window.location.href = '{{ config.site_url }}';
+        };
+      }
+    });
+  </script>
 {% endblock %}
