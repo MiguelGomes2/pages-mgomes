@@ -1,6 +1,10 @@
 site_name: Personal Knowledge Repository
 theme:
   name: material
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: cyan
   features:
     - navigation.instant
     - navigation.tracking
@@ -12,6 +16,12 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+  font:
+    text: Segoe UI
+    code: Fira Code
+
+extra_css:
+  - stylesheets/custom.css
 
 nav:
   - Home: index.md

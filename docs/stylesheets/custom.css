@@ -1,0 +1,196 @@
+/* Phthalo Green Background */
+:root {
+  --md-primary-fg-color: #0d5d3d;
+  --md-primary-bg-color: #0d5d3d;
+  --md-accent-fg-color: #00d4aa;
+}
+
+/* Main Background */
+body {
+  background-color: #0d5d3d;
+  color: #f0f0f0;
+}
+
+.md-page {
+  background-color: #0d5d3d;
+}
+
+.md-main {
+  background-color: #0d5d3d;
+}
+
+/* Content Area */
+.md-content {
+  background-color: #1a3a2a;
+  color: #f0f0f0;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+/* Typography Styling */
+
+/* Regular Text */
+p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Titles and Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #00d4aa;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #00d4aa;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #00e6b8;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #00d4aa;
+}
+
+/* Hyperlinks */
+a {
+  color: #00e6b8;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid #00e6b8;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00c9a3;
+}
+
+/* Navigation */
+.md-nav__link {
+  color: #e0e0e0;
+}
+
+.md-nav__link:hover {
+  color: #00e6b8;
+}
+
+.md-nav__link--active {
+  color: #00ffcc;
+}
+
+/* Sidebar */
+.md-sidebar {
+  background-color: #0d5d3d;
+}
+
+.md-nav {
+  background-color: #0d5d3d;
+}
+
+/* Code Blocks */
+.highlight {
+  background-color: #0a2a1a;
+  border-left: 3px solid #00d4aa;
+}
+
+code {
+  background-color: #0a2a1a;
+  color: #00e6b8;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}
+
+pre {
+  background-color: #0a2a1a;
+  color: #e0e0e0;
+  border-radius: 8px;
+  border-left: 3px solid #00d4aa;
+}
+
+/* Details/Collapsible Sections */
+details {
+  background-color: #0a2a1a;
+  border: 1px solid #00d4aa;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+details summary {
+  color: #00e6b8;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+details summary:hover {
+  color: #00ffcc;
+}
+
+/* Tables */
+table {
+  background-color: #0a2a1a;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0d5d3d;
+  color: #00e6b8;
+  border-bottom: 2px solid #00d4aa;
+}
+
+td {
+  border-bottom: 1px solid #1a3a2a;
+  color: #e0e0e0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #00d4aa;
+  background-color: #0a2a1a;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #c0c0c0;
+}
+
+/* Search Box */
+.md-search__input {
+  background-color: #0a2a1a;
+  color: #e0e0e0;
+  border: 1px solid #00d4aa;
+}
+
+.md-search__input::placeholder {
+  color: #808080;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #0a2a1a;
+  border-top: 1px solid #00d4aa;
+}
+
+.md-footer__link {
+  color: #00d4aa;
+}
+
+.md-footer__link:hover {
+  color: #00ffcc;
+}
