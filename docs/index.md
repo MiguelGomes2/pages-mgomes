@@ -1,6 +1,6 @@
 # Personal Knowledge Repository
 
-A personal knowledge base for technical learnings, how-to guides, meeting notes, and project tracking. Built with markdown for simplicity, portability, and version control via Git.
+A personal knowledge base for technical learnings, how-to guides, meeting notes, and project tracking. Built with markdown for simplicity, portability, and version control via Git
 
 **Navigation:** [Automatic-KS](/pages-mgomes/automatic-ks/) • [Technical Learnings](/pages-mgomes/technical-learnings/) • [Reference](/pages-mgomes/reference/) • [Meeting Notes](/pages-mgomes/meeting-notes/) • [Projects](/pages-mgomes/projects/)
 
