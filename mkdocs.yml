@@ -24,9 +24,6 @@ theme:
 plugins:
   - search
 
-extra_css:
-  - custom-theme.css
-
 markdown_extensions:
   - admonition
   - pymdownx.details
