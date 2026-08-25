@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 
-{% block styles %}
+{% block extrahead %}
   {{ super() }}
   <style>
-    :root {
-      --md-primary-fg-color: #0d5d3d;
-      --md-primary-bg-color: #0d5d3d;
-    }
     body, html { background-color: #0d5d3d !important; }
+    * { background-color: #0d5d3d !important; }
     .md-content { color: #ffffff !important; }
+    .md-nav__title { display: none !important; }
+    .md-search__input::placeholder { color: transparent !important; }
+    .md-search__input { font-size: 0 !important; }
+    .md-search__input::before { content: "" !important; font-size: 16px; }
   </style>
 {% endblock %}
