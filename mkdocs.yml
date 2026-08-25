@@ -1,10 +1,9 @@
 site_name: Personal Knowledge Repository
 site_description: Technical learnings, meeting notes, reference material, and project tracking
 site_author: Miguel Gomes
-site_url: https://fanduel.github.io/personal-knowledge-repo/
-
-repo_url: https://github.com/fanduel/personal-knowledge-repo
-repo_name: personal-knowledge-repo
+site_url: https://MiguelGomes2.github.io/pages-mgomes/
+repo_url: https://github.com/MiguelGomes2/pages-mgomes
+repo_name: pages-mgomes
 edit_uri: edit/main/docs/
 
 theme:
@@ -38,8 +37,6 @@ theme:
 plugins:
   - search:
       lang: en
-  - mkdocstrings:
-      default_handler: python
 
 markdown_extensions:
   - admonition
@@ -56,19 +53,11 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Home: Automatic-KS.md
+  - Home: index.md
+  - Automatic Knowledge Store: Automatic-KS.md
   - Technical Learnings:
     - Overview: technical-learnings/index.md
-    - Programming: technical-learnings/programming/index.md
-    - Tools & Frameworks: technical-learnings/tools-frameworks/index.md
-    - DevOps & Infrastructure: technical-learnings/devops-infra/index.md
-    - Debugging Notes: technical-learnings/debugging/index.md
   - Reference Material:
     - Overview: reference/index.md
-    - APIs: reference/apis/index.md
-    - Commands & Cheatsheets: reference/commands/index.md
-    - Templates: reference/templates/index.md
-    - Checklists: reference/checklists/index.md
   - Meeting Notes: meeting-notes/index.md
   - Projects: projects/index.md
-  - About: about.md
