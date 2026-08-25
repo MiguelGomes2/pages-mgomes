@@ -1,53 +1,11 @@
 site_name: Personal Knowledge Repository
-site_description: Technical learnings, meeting notes, reference material, and project tracking
-site_author: Miguel Gomes
-site_url: https://MiguelGomes2.github.io/pages-mgomes/
-repo_url: https://github.com/MiguelGomes2/pages-mgomes
-repo_name: pages-mgomes
-edit_uri: edit/main/docs/
-
 theme:
   name: material
-  palette:
-    - scheme: slate
-      primary: blue
-      accent: cyan
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
-    - scheme: default
-      primary: blue
-      accent: cyan
-      toggle:
-        icon: material/toggle-switch-outline
-        name: Switch to dark mode
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-    - content.tabs.link
 
-plugins:
-  - search:
-      lang: en
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      permalink: true
+nav:
+  - Home: index.md
+  - Automatic-KS: Automatic-KS.md
+  - Technical Learnings: technical-learnings/index.md
+  - Reference: reference/index.md
+  - Meeting Notes: meeting-notes/index.md
+  - Projects: projects/index.md
