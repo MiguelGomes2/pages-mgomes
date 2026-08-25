@@ -1,74 +1,11 @@
 site_name: Personal Knowledge Repository
-site_description: Technical learnings, meeting notes, reference material, and project tracking
-site_author: Miguel Gomes
-site_url: https://fanduel.github.io/personal-knowledge-repo/
-
-repo_url: https://github.com/fanduel/personal-knowledge-repo
-repo_name: personal-knowledge-repo
-edit_uri: edit/main/docs/
-
 theme:
   name: material
-  palette:
-    - scheme: slate
-      primary: blue
-      accent: cyan
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
-    - scheme: default
-      primary: blue
-      accent: cyan
-      toggle:
-        icon: material/toggle-switch-outline
-        name: Switch to dark mode
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-    - content.tabs.link
-
-plugins:
-  - search:
-      lang: en
-  - mkdocstrings:
-      default_handler: python
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      permalink: true
 
 nav:
   - Home: index.md
-  - Technical Learnings:
-    - Overview: technical-learnings/index.md
-    - Programming: technical-learnings/programming/index.md
-    - Tools & Frameworks: technical-learnings/tools-frameworks/index.md
-    - DevOps & Infrastructure: technical-learnings/devops-infra/index.md
-    - Debugging Notes: technical-learnings/debugging/index.md
-  - Reference Material:
-    - Overview: reference/index.md
-    - APIs: reference/apis/index.md
-    - Commands & Cheatsheets: reference/commands/index.md
-    - Templates: reference/templates/index.md
-    - Checklists: reference/checklists/index.md
+  - Automatic-KS: automaticks/index.md
+  - Technical Learnings: technical-learnings/index.md
+  - Reference: reference/index.md
   - Meeting Notes: meeting-notes/index.md
   - Projects: projects/index.md
-  - About: about.md
