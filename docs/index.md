@@ -2,7 +2,7 @@
 
 A personal knowledge base for technical learnings, how-to guides, meeting notes, and project tracking. Built with markdown for simplicity, portability, and version control via Git
 
-**Navigation:** [Automatic-KS](/pages-mgomes/automaticks/) • [Technical Learnings](/pages-mgomes/technical-learnings/) • [Reference](/pages-mgomes/reference/) • [Meeting Notes](/pages-mgomes/meeting-notes/) • [Liability Engine](/pages-mgomes/liabilityengine/)
+**Navigation:** [Automatic-KS](/pages-mgomes/automaticks/) • [Technical Learnings](/pages-mgomes/technical-learnings/) • [Price Confidence](/pages-mgomes/price-confidence/) • [Meeting Notes](/pages-mgomes/meeting-notes/) • [Liability Engine](/pages-mgomes/liabilityengine/)
 
 ---
 
@@ -20,7 +20,7 @@ personal-repo/
 │   ├── devops-and-infrastructure/
 │   └── debugging-notes/
 │
-├── /02-reference-material/      # Quick reference and checklists
+├── /price-confidence/           # Price Confidence reference and checklists
 │   ├── apis/
 │   ├── commands/
 │   ├── templates/
@@ -54,7 +54,7 @@ cd personal-repo
 
 # Create the directory structure
 mkdir -p 01-technical-learnings/{programming,tools-and-frameworks,devops-and-infrastructure,debugging-notes}
-mkdir -p 02-reference-material/{apis,commands,templates,checklists}
+mkdir -p price-confidence/{apis,commands,templates,checklists}
 mkdir -p 03-meeting-notes/{2026-08,2026-09}
 mkdir -p liabilityengine
 mkdir -p templates
@@ -89,14 +89,14 @@ For deep-dive guides, tutorials, and how-tos on technical topics.
 
 ---
 
-### 🔍 02-Reference-Material/
-Quick lookups, API docs, commands, templates, and checklists.
+### 🔍 Price Confidence/
+Price Confidence data, queries, documentation, and checklists.
 
 **Examples:**
-- `apis/slack-api-endpoints.md` - Slack API reference
-- `commands/docker-cheatsheet.md` - Useful Docker commands
-- `templates/pr-checklist.md` - PR review template
-- `checklists/deployment-checklist.md` - Pre-deployment steps
+- `apis/api-endpoints.md` - API reference
+- `commands/useful-queries.md` - Useful queries and commands
+- `templates/analysis-template.md` - Analysis template
+- `checklists/review-checklist.md` - Review checklist
 
 **Template:** See `templates/REFERENCE.md`
 
@@ -208,6 +208,7 @@ If you want a public-facing version:
 - [INDEX.md](INDEX.md) - Master navigation
 - [Templates](templates/) - Content templates
 - [Latest Meeting Notes](03-meeting-notes/2026-08/) - Recent notes
+- [Price Confidence](price-confidence/index.md) - Reference material
 - [Liability Engine](liabilityengine/index.md) - Current work
 
 ---
