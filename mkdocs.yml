@@ -1,6 +1,7 @@
 site_name: Personal Knowledge Repository
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     - scheme: slate
       primary: green
@@ -31,9 +32,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - toc:
       permalink: true
-
-extra_css:
-  - stylesheets/custom.css
 
 nav:
   - Home: index.md
