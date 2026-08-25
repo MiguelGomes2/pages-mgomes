@@ -109,3 +109,16 @@ td {
 .md-header__inner {
   cursor: pointer !important;
 }
+
+/* Hide search box text/label */
+.md-search__input::placeholder {
+  color: transparent !important;
+}
+
+.md-search__input {
+  font-size: 0 !important;
+}
+
+.md-search__input::before {
+  content: "" !important;
+}
