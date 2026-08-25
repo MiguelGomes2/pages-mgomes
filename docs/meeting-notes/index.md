@@ -4,7 +4,11 @@ Meeting notes and decisions.
 
 ---
 
-## OBP Milestone 4 - Requirements alignment
+## 2026-08-24 - OBP Milestone 4 - Requirements alignment
+
+<details>
+<summary><strong>Details</strong></summary>
+
 **Date:** Aug 24, 2026 04:00 PM  
 **Attendees:** Miguel Gomes, Ross White, Donough Regan  
 **Format:** Shared screen with speaker view
@@ -24,6 +28,8 @@ Key findings:
 - [ ] Check with Tiago on estimates and requirements clarity
 - [ ] Create tickets to formalize the work
 - [ ] Ross to walkthrough automated kill switch implementation with Miguel
+
+</details>
 
 <details>
 <summary><strong>Full Meeting Transcript</strong></summary>
