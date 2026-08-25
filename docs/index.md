@@ -2,7 +2,7 @@
 
 A personal knowledge base for technical learnings, how-to guides, meeting notes, and project tracking. Built with markdown for simplicity, portability, and version control via Git
 
-**Navigation:** [Automatic-KS](/pages-mgomes/automaticks/) • [Technical Learnings](/pages-mgomes/technical-learnings/) • [Price Confidence](/pages-mgomes/price-confidence/) • [Meeting Notes](/pages-mgomes/meeting-notes/) • [Liability Engine](/pages-mgomes/liabilityengine/)
+**Navigation:** [Automatic-KS](/pages-mgomes/automaticks/) • [Price Confidence](/pages-mgomes/price-confidence/) • [Meeting Notes](/pages-mgomes/meeting-notes/) • [Liability Engine](/pages-mgomes/liabilityengine/)
 
 ---
 
@@ -13,12 +13,6 @@ personal-repo/
 ├── README.md                    # This file
 ├── .gitignore                   # Git ignore patterns
 ├── INDEX.md                     # Master index and quick links
-│
-├── /01-technical-learnings/     # Technical guides and how-tos
-│   ├── programming/
-│   ├── tools-and-frameworks/
-│   ├── devops-and-infrastructure/
-│   └── debugging-notes/
 │
 ├── /price-confidence/           # Price Confidence reference and checklists
 │   ├── apis/
@@ -53,7 +47,6 @@ git clone <your-repo-url> personal-repo
 cd personal-repo
 
 # Create the directory structure
-mkdir -p 01-technical-learnings/{programming,tools-and-frameworks,devops-and-infrastructure,debugging-notes}
 mkdir -p price-confidence/{apis,commands,templates,checklists}
 mkdir -p 03-meeting-notes/{2026-08,2026-09}
 mkdir -p liabilityengine
@@ -76,18 +69,6 @@ git push origin main
 ---
 
 ## 📖 How to Use Each Section
-
-### 📚 01-Technical-Learnings/
-For deep-dive guides, tutorials, and how-tos on technical topics.
-
-**Examples:**
-- `programming/python-async.md` - Async/await patterns
-- `tools-and-frameworks/react-patterns.md` - React best practices
-- `debugging-notes/kafka-consumer-lag.md` - Solutions to common issues
-
-**Template:** See `templates/TECHNICAL-GUIDE.md`
-
----
 
 ### 🔍 Price Confidence/
 Price Confidence data, queries, documentation, and checklists.
