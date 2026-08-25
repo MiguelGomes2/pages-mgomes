@@ -258,3 +258,17 @@ td {
 .md-header__button {
   align-self: center !important;
 }
+
+/* Hide sidebar branding/logo box */
+.md-logo {
+  display: none !important;
+}
+
+.md-sidebar__scrollwrap {
+  top: 0 !important;
+}
+
+/* Hide nav header */
+.md-nav__header {
+  display: none !important;
+}
