@@ -18,7 +18,7 @@ Evidence and hypothesis <br>
 Primary/secondary metrics with targets <br>
 Pod lead and members <br>
 
-What happens: Merged PR = pod officially created and appears in 'pods/_registry.yaml'
+What happens: Merged PR = pod officially created and appears in `pods/_registry.yaml`
 
 ## Initiatives
 
