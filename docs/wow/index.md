@@ -5,13 +5,13 @@
 ## Pod Charters
 How to create:
 
-1) Use the /pod-charter skill (interactive evaluation in Claude Code) <br>
+1) Use the `/pod-charter` skill (interactive evaluation in Claude Code) <br>
 Pressure-tests your problem statement <br>
 Validates evidence <br>
 Refines hypothesis <br>
 Defines 2-3 success metrics <br>
 Generates the charter PR <br>
-2) Manual: Edit templates/pod/charter.md with: <br>
+2) Manual: Edit `templates/pod/charter.md` with: <br>
 Mission type (product/platform/enablement) <br>
 Customer problem (specific, not vague) <br>
 Evidence and hypothesis <br>
@@ -23,10 +23,11 @@ What happens: Merged PR = pod officially created and appears in `pods/_registry.
 ## Initiatives
 
 How to create:
-Use the /initiative-create skill (scaffolding tool) <br>
+Use the `/initiative-create` skill (scaffolding tool) <br>
 Prompts for name, primary area, secondary areas <br>
 Creates folder structure automatically <br>
-Manual: Copy templates/initiative/ to surfaces/my-bets/initiatives/2026-q2-my-name/ <br>
+Manual: Copy `templates/initiative/` to `surfaces/my-bets/initiatives/2026-q2-my-name/` <br>
+Key: Tie initiatives to pods via `pod: pod_slug` in frontmatter
 
 Structure: Initiative folder has 7 standard files:
 
@@ -39,8 +40,6 @@ Structure: Initiative folder has 7 standard files:
 | `qa.md` | Product Q&A log — questions with resolved answers |
 | `decisions.md` | ADR-style decision records |
 | `status.md` | Current phase, timeline, blockers |
-
-Key: Tie initiatives to pods via pod: pod_slug in frontmatter
 
 ## How to Pick a Home for a New Initiative
 
@@ -67,11 +66,13 @@ Key: Tie initiatives to pods via pod: pod_slug in frontmatter
 ____________________
 
 ## Available Skills
+
 Skill	Purpose
-/pod-charter	Create a pod interactively
-/initiative-create	Scaffold a new initiative
-/one-sheeter	Generate stakeholder summary
-/epic-refinement	Decompose initiatives into epics
-/refinement-prep	Pressure-test Jira stories
-/templates/initiative/ The canonical template for a new initiative. Copy this to start.
-/templates/example-initiative/ A fully worked example showing how a mature initiative looks.
+|---|---|
+|`/pod-charter`	Create a pod interactively |
+|`/initiative-create`	Scaffold a new initiative |
+|`/one-sheeter`	Generate stakeholder summary |
+|`/epic-refinement`	Decompose initiatives into epics |
+|`/refinement-prep`	Pressure-test Jira stories |
+|`/templates/initiative/` The canonical template for a new initiative. Copy this to start. |
+|`/templates/example-initiative/` A fully worked example showing how a mature initiative looks. |
