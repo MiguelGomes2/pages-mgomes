@@ -5,18 +5,18 @@
 ## Pod Charters
 How to create:
 
-Use the /pod-charter skill (interactive evaluation in Claude Code)
-Pressure-tests your problem statement
-Validates evidence
-Refines hypothesis
-Defines 2-3 success metrics
-Generates the charter PR
-Manual: Edit templates/pod/charter.md with:
-Mission type (product/platform/enablement)
-Customer problem (specific, not vague)
-Evidence and hypothesis
-Primary/secondary metrics with targets
-Pod lead and members
+1) Use the /pod-charter skill (interactive evaluation in Claude Code) <br>
+Pressure-tests your problem statement <br>
+Validates evidence <br>
+Refines hypothesis <br>
+Defines 2-3 success metrics <br>
+Generates the charter PR <br>
+2) Manual: Edit templates/pod/charter.md with: <br>
+Mission type (product/platform/enablement) <br>
+Customer problem (specific, not vague) <br>
+Evidence and hypothesis <br>
+Primary/secondary metrics with targets <br>
+Pod lead and members <br>
 
 What happens: Merged PR = pod officially created and appears in pods/_registry.yaml
 
@@ -24,9 +24,9 @@ What happens: Merged PR = pod officially created and appears in pods/_registry.y
 
 How to create:
 Use the /initiative-create skill (scaffolding tool) <br>
-Prompts for name, primary area, secondary areas
-Creates folder structure automatically
-Manual: Copy templates/initiative/ to surfaces/my-bets/initiatives/2026-q2-my-name/
+Prompts for name, primary area, secondary areas <br>
+Creates folder structure automatically <br>
+Manual: Copy templates/initiative/ to surfaces/my-bets/initiatives/2026-q2-my-name/ <br>
 
 Structure: Initiative folder has 7 standard files:
 
