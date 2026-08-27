@@ -69,10 +69,10 @@ ____________________
 
 Skill	Purpose
 |---|---|
-|`/pod-charter`	Create a pod interactively |
-|`/initiative-create`	Scaffold a new initiative |
-|`/one-sheeter`	Generate stakeholder summary |
-|`/epic-refinement`	Decompose initiatives into epics |
-|`/refinement-prep`	Pressure-test Jira stories |
-|`/templates/initiative/` The canonical template for a new initiative. Copy this to start. |
-|`/templates/example-initiative/` A fully worked example showing how a mature initiative looks. |
+|`/pod-charter`	| Create a pod interactively |
+|`/initiative-create`	|	Scaffold a new initiative |
+|`/one-sheeter`	|	Generate stakeholder summary |
+|`/epic-refinement`	|	Decompose initiatives into epics |
+|`/refinement-prep`	|	Pressure-test Jira stories |
+|`/templates/initiative/`	| The canonical template for a new initiative. Copy this to start. |
+|`/templates/example-initiative/`	| A fully worked example showing how a mature initiative looks. |
