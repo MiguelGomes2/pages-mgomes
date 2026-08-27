@@ -28,13 +28,15 @@ Prompts for name, primary area, secondary areas
 Creates folder structure automatically
 Manual: Copy templates/initiative/ to surfaces/my-bets/initiatives/2026-q2-my-name/
 Structure: Initiative folder has 7 standard files:
-README (problem, metrics, links)
-spec.md (requirements)
-research.md (UX research, data)
-design.md (UI decisions)
-qa.md (Q&A log)
-decisions.md (ADR-style decisions)
-status.md (timeline, blockers)
+| File | Purpose |
+|---|---|
+| `README.md` | Overview, problem statement, success metrics, links, frontmatter with status/RACI/pod |
+| `spec.md` | Functional requirements, user stories, edge cases |
+| `research.md` | User research, data analysis, competitive intel |
+| `design.md` | UX/UI decisions, Figma links, interaction notes |
+| `qa.md` | Product Q&A log — questions with resolved answers |
+| `decisions.md` | ADR-style decision records |
+| `status.md` | Current phase, timeline, blockers |
 
 Key: Tie initiatives to pods via pod: pod_slug in frontmatter
 
