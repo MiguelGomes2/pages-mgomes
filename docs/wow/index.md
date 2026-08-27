@@ -1,6 +1,6 @@
 # WoW
 
-[Weekly updates and insights.](https://github.com/fanduel/sports-product-hub)
+[Git Instructions](https://github.com/fanduel/sports-product-hub)
 
 ## Pod Charters
 How to create:
