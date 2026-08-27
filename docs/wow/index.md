@@ -67,7 +67,7 @@ ____________________
 
 ## Available Skills
 
-Skill	Purpose
+| Skill	| Purpose |
 |---|---|
 |`/pod-charter`	| Create a pod interactively |
 |`/initiative-create`	|	Scaffold a new initiative |
