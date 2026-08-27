@@ -33,7 +33,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Automatic-KS: automaticks/index.md
+  - Automatic KS: automaticks/index.md
   - Liability Engine: liabilityengine/index.md
   - Price Confidence: price-confidence/index.md
   - Meeting Notes: meeting-notes/index.md
