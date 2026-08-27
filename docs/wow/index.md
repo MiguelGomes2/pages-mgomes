@@ -28,6 +28,7 @@ Prompts for name, primary area, secondary areas
 Creates folder structure automatically
 Manual: Copy templates/initiative/ to surfaces/my-bets/initiatives/2026-q2-my-name/
 Structure: Initiative folder has 7 standard files:
+
 | File | Purpose |
 |---|---|
 | `README.md` | Overview, problem statement, success metrics, links, frontmatter with status/RACI/pod |
