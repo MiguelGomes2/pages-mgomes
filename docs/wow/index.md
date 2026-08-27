@@ -21,12 +21,13 @@ Pod lead and members
 What happens: Merged PR = pod officially created and appears in pods/_registry.yaml
 
 ## Initiatives
-How to create:
 
-Use the /initiative-create skill (scaffolding tool)
+How to create:
+Use the /initiative-create skill (scaffolding tool) <br>
 Prompts for name, primary area, secondary areas
 Creates folder structure automatically
 Manual: Copy templates/initiative/ to surfaces/my-bets/initiatives/2026-q2-my-name/
+
 Structure: Initiative folder has 7 standard files:
 
 | File | Purpose |
